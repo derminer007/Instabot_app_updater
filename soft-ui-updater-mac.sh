@@ -12,6 +12,12 @@ OUTPUT_FOLDER="$SCRIPT_DIR/repository"
 SOURCE_FOLDER="$OUTPUT_FOLDER/Instabot_app_updater-$BRANCH"  # Der entpackte Ordner
 DESTINATION_FOLDER="$SCRIPT_DIR/../soft-ui-dashboard-pro-react.app/Contents/Resources/app/build"  # Zielordner, wo die Dateien kopiert werden sollen
 
+# Programm aufräumen
+CLEAN_APP_FOLDER="$SCRIPT_DIR/../soft-ui-dashboard-pro-react.app/Contents/Resources/app"
+rm -rf "$CLEAN_APP_FOLDER/src"
+rm -f "$CLEAN_APP_FOLDER/CHANGELOG.md"
+rm -f "$CLEAN_APP_FOLDER/jsconfig.json"
+
 # Herunterladen der ZIP-Datei
 curl -L $ZIP_URL -o $OUTPUT_FILE
 
@@ -21,6 +27,7 @@ unzip -o $OUTPUT_FILE -d $OUTPUT_FOLDER
 # Dateien kopieren und vorhandene Dateien ersetzen
 cp -f "$SOURCE_FOLDER/main.js" "$DESTINATION_FOLDER"
 cp -f "$SOURCE_FOLDER/preload.js" "$DESTINATION_FOLDER"
+rm -rf "$DESTINATION_FOLDER/static"
 cp -rf "$SOURCE_FOLDER/static" "$DESTINATION_FOLDER"
 cp -f "$SOURCE_FOLDER/index.html" "$DESTINATION_FOLDER"
 cp -f "$SOURCE_FOLDER/asset-manifest.json" "$DESTINATION_FOLDER"
