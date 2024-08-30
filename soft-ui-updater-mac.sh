@@ -22,6 +22,8 @@ unzip -o $OUTPUT_FILE -d $OUTPUT_FOLDER
 cp -f "$SOURCE_FOLDER/main.js" "$DESTINATION_FOLDER"
 cp -f "$SOURCE_FOLDER/preload.js" "$DESTINATION_FOLDER"
 cp -rf "$SOURCE_FOLDER/static" "$DESTINATION_FOLDER"
+cp -f "$SOURCE_FOLDER/index.html" "$DESTINATION_FOLDER"
+cp -f "$SOURCE_FOLDER/asset-manifest.json" "$DESTINATION_FOLDER"
 
 # Entfernen der ZIP-Datei und des entpackten Ordners
 rm $OUTPUT_FILE
