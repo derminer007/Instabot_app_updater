@@ -15,6 +15,11 @@ Remove-Item -Path "$clean_app_folder\src" -Recurse -Force -ErrorAction SilentlyC
 Remove-Item -Path "$clean_app_folder\CHANGELOG.md" -Force -ErrorAction SilentlyContinue
 Remove-Item -Path "$clean_app_folder\jsconfig.json" -Force -ErrorAction SilentlyContinue
 
+Remove-Item -Path "$clean_app_folder\.env" -Force -ErrorAction SilentlyContinue
+Remove-Item -Path "$clean_app_folder\.eslintrc.json" -Force -ErrorAction SilentlyContinue
+Remove-Item -Path "$clean_app_folder\.npmrc" -Force -ErrorAction SilentlyContinue
+Remove-Item -Path "$clean_app_folder\.prettierrc.json" -Force -ErrorAction SilentlyContinue
+
 # Herunterladen der ZIP-Datei
 Invoke-WebRequest -Uri $zipUrl -OutFile $outputFile
 
