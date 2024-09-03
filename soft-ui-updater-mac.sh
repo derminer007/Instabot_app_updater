@@ -10,7 +10,7 @@ ZIP_URL="$REPO_URL/archive/refs/heads/$BRANCH.zip"
 OUTPUT_FILE="$SCRIPT_DIR/repository.zip"
 OUTPUT_FOLDER="$SCRIPT_DIR/repository"
 SOURCE_FOLDER="$OUTPUT_FOLDER/Instabot_app_updater-$BRANCH"  # Der entpackte Ordner
-DESTINATION_FOLDER="$SCRIPT_DIR/../soft-ui-dashboard-pro-react.app/Contents/Resources/app/build"  # Zielordner, wo die Dateien kopiert werden sollen
+DESTINATION_FOLDER="$SCRIPT_DIR/soft-ui-dashboard-pro-react.app/Contents/Resources/app/build"  # Zielordner, wo die Dateien kopiert werden sollen
 
 # Programm aufräumen
 CLEAN_APP_FOLDER="$SCRIPT_DIR/../soft-ui-dashboard-pro-react.app/Contents/Resources/app"
