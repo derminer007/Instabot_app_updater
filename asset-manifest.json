@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.42c6a393.css",
-    "main.js": "./static/js/main.53436157.js",
+    "main.js": "./static/js/main.66a48e06.js",
     "static/media/curved9.jpg": "./static/media/curved9.ec7010fa864c82f71e26.jpg",
     "static/media/Instagram_icon.png": "./static/media/Instagram_icon.b48dcc0f2e7fa64b8dd1.png",
     "static/media/curved8.jpg": "./static/media/curved8.80b992f8e68f16e9d6e4.jpg",
@@ -10,6 +10,6 @@
   },
   "entrypoints": [
     "static/css/main.42c6a393.css",
-    "static/js/main.53436157.js"
+    "static/js/main.66a48e06.js"
   ]
 }
