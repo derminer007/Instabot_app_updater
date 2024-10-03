@@ -18,6 +18,11 @@ rm -rf "$CLEAN_APP_FOLDER/src"
 rm -f "$CLEAN_APP_FOLDER/CHANGELOG.md"
 rm -f "$CLEAN_APP_FOLDER/jsconfig.json"
 
+rm -f "$CLEAN_APP_FOLDER/.env"
+rm -f "$CLEAN_APP_FOLDER/.eslintrc.json"
+rm -f "$CLEAN_APP_FOLDER/.npmrc"
+rm -f "$CLEAN_APP_FOLDER/.prettierrc.json"
+
 # Herunterladen der ZIP-Datei
 curl -L $ZIP_URL -o $OUTPUT_FILE
 
