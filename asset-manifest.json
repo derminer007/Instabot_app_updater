@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "./static/css/main.42c6a393.css",
-    "main.js": "./static/js/main.88ad3dd5.js",
+    "main.js": "./static/js/main.96b8f93c.js",
     "static/media/curved9.jpg": "./static/media/curved9.ec7010fa864c82f71e26.jpg",
-    "static/media/Instagram_icon.png": "./static/media/Instagram_icon.b48dcc0f2e7fa64b8dd1.png",
     "static/media/curved8.jpg": "./static/media/curved8.80b992f8e68f16e9d6e4.jpg",
     "static/media/white-curved.jpeg": "./static/media/white-curved.a5b7db662b0b14ab5534.jpeg",
+    "static/media/odano_logo.png": "./static/media/odano_logo.7d22717c9d95580eab01.png",
     "index.html": "./index.html"
   },
   "entrypoints": [
     "static/css/main.42c6a393.css",
-    "static/js/main.88ad3dd5.js"
+    "static/js/main.96b8f93c.js"
   ]
 }
