@@ -15,6 +15,7 @@ DESTINATION_FOLDER="$SCRIPT_DIR"  # Zielordner, wo die Dateien kopiert werden so
 # Programm aufräumen
 CLEAN_APP_FOLDER="$SCRIPT_DIR/../"
 rm -rf "$CLEAN_APP_FOLDER/src"
+rm -rf "$CLEAN_APP_FOLDER/public"
 rm -f "$CLEAN_APP_FOLDER/CHANGELOG.md"
 rm -f "$CLEAN_APP_FOLDER/jsconfig.json"
 
