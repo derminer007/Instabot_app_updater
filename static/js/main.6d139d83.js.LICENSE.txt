@@ -6,7 +6,7 @@
  */
 
 /*!
- * CSSJanus. https://github.com/cssjanus/cssjanus
+ * CSSJanus. https://www.mediawiki.org/wiki/CSSJanus
  *
  * Copyright 2014 Trevor Parscal
  * Copyright 2010 Roan Kattouw
@@ -33,7 +33,7 @@
  */
 
 /*!
- * github-buttons v2.28.0
+ * github-buttons v2.29.1
  * (c) 2024 なつき
  * @license BSD-2-Clause
  */
