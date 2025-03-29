@@ -1,0 +1,19 @@
+name: Firestore Increment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  increment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Call Firebase Function
+        run: |
+          curl -X POST https://<YOUR_REGION>-<YOUR_PROJECT_ID>.cloudfunctions.net/incrementFirestoreVariable
+        env:
+          FIREBASE_FUNCTION_URL: ${{ secrets.FIREBASE_FUNCTION_URL }}
