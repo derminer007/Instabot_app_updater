@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.42c6a393.css",
-    "main.js": "./static/js/main.99a0cfd7.js",
+    "main.js": "./static/js/main.0b4b005c.js",
     "static/media/curved9.jpg": "./static/media/curved9.ec7010fa864c82f71e26.jpg",
     "static/media/curved8.jpg": "./static/media/curved8.80b992f8e68f16e9d6e4.jpg",
     "static/media/white-curved.jpeg": "./static/media/white-curved.a5b7db662b0b14ab5534.jpeg",
@@ -10,6 +10,6 @@
   },
   "entrypoints": [
     "static/css/main.42c6a393.css",
-    "static/js/main.99a0cfd7.js"
+    "static/js/main.0b4b005c.js"
   ]
 }
