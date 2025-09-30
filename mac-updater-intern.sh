@@ -5,7 +5,7 @@
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 # Repository und Branch definieren
 REPO_URL="https://github.com/derminer007/Instabot_app_updater"
-BRANCH="main"
+BRANCH="staging"
 ZIP_URL="$REPO_URL/archive/refs/heads/$BRANCH.zip"
 OUTPUT_FILE="$SCRIPT_DIR/repository.zip"
 OUTPUT_FOLDER="$SCRIPT_DIR/repository"
